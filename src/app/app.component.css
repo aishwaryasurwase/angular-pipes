@@ -1,0 +1,19 @@
+.stableServer{
+    background-color: blue;
+    opacity: 0.3;
+    color: white
+}
+
+.offlineServer{
+    background-color: red;
+    opacity: 0.3;
+    color: white
+}
+
+li{
+    margin: 3px;
+}
+/* <li class="list-group-item" [ngClass]="{'stableServer': server.status == 'stable', 'offlineServer' : server.status == 'offline'}">
+<b>{{ server.name }}</b> | {{ server.instanceType | uppercase }} | {{ server.started | date:'fullDate' | uppercase }}
+<button class="rounded text-light" type="button" style="background-color: rgb(63, 14, 64); right: 2em; position: absolute;">{{server.status}}</button>
+</li> */
